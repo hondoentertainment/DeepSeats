@@ -1,0 +1,28 @@
+.GameSelectionForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.GameSelectionForm select {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.GameSelectionForm button {
+  width: 100px;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.GameSelectionForm button:hover {
+  background-color: #45a049;
+}
